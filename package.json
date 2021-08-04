@@ -1,7 +1,7 @@
 {
-  "name": "@dzangolab/vue-country-flag-icon",
-  "version": "0.2.0",
-  "description": "A vue.js component to display country flag icons.",
+  "name": "vue3-country-flag-icon",
+  "version": "0.1.2",
+  "description": "A vue 3 component to display country flag icons.",    
   "author": {
     "name": "Olivier Pichon",
     "email": "op@dzango.com",
@@ -44,14 +44,15 @@
     "eslint-plugin-vue": "^7.0.0-alpha.0",
     "sass-loader": "10"
   },
-  "bugs": "https://github.com/dzangolab/vue-country-flag-icon/issues",
-  "homepage": "https://github.com/dzangolab/vue-country-flag-icon",
+  "bugs": "https://github.com/noeGnh/vue3-country-flag-icon/issues",
+  "homepage": "https://github.com/noeGnh/vue3-country-flag-icon",
   "keywords": [
+    "vue3",
     "vuejs",
     "country",
     "flag",
     "icon"
   ],
   "license": "MIT",
-  "repository": "github:dzangolab/vue-country-flag-icon"
+  "repository": "github:noeGnh/vue3-country-flag-icon"
 }

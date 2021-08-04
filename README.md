@@ -1,23 +1,21 @@
-# @dzangolab/vue-country-flag-icon
+# vue3-country-flag-icon
 
-Country flag component for Vue. Supports SSR apps.
+Country flag component for Vue 3. Supports SSR apps.
 
-## Requirements
-
-* vue.js >= 2.6
+Forked from <https://github.com/dzangolab/vue-country-flag-icon>
 
 ## Usage
 
 Add the package to your app via npm:
 
 ``` bash
-npm install @dzangolab/vue-country-flag-icon --save
+npm install vue3-country-flag-icon
 ```
 
 or yarn:
 
 ``` bash
-yarn add @dzangolab/vue-country-flag-icon
+yarn add vue3-country-flag-icon
 ```
 
 ### Add CountryFlag globally
@@ -25,11 +23,13 @@ yarn add @dzangolab/vue-country-flag-icon
 ``` javascript
 # main.js
 
-import Vue from 'vue'
-import CountryFlag from '@dzangolab/vue-country-flag-icon'
-import '@dzangolab/vue-country-flag-icon/dist/CountryFlag.css' // import stylesheet
+import { createApp } from 'vue'
+import App from './App.vue'
+import CountryFlag from 'vue3-country-flag-icon'
+import 'vue3-country-flag-icon/dist/CountryFlag.css' // import stylesheet
 
-Vue.use('CountryFlag', CountryFlag)
+const app = createApp(App)
+app.component('country-flag', CountryFlag)
 ```
 
 ### Add CountryFlag inside a component
@@ -42,8 +42,8 @@ Vue.use('CountryFlag', CountryFlag)
 </template>
 
 <script>
-  import CountryFlag from '@dzangolab/vue-country-flag-icon'
-  import '@dzangolab/vue-country-flag-icon/dist/CountryFlag.css' // import stylesheet
+  import CountryFlag from 'vue3-country-flag-icon'
+  import 'vue3-country-flag-icon/dist/CountryFlag.css' // import stylesheet
 
   export default {
     components: {
@@ -75,6 +75,6 @@ This setting is **required**.
 
 Instead of importing the css file in component or main.js, you can also import scss file into your app scss file.
 
-```
-@import '~@dzangolab/vue-country-flag-icon/src/assets/scss/country-flag.scss';
+```javascript
+@import '~vue3-country-flag-icon/src/assets/scss/country-flag.scss';
 ```
