@@ -41,20 +41,20 @@
   </div>
 </template>
 
-<script>
-import CountryFlag from './components/CountryFlag/Index.vue'
+<script lang="ts">
+import CountryFlag from "./components/CountryFlag/Index.vue";
 
 export default {
-  name: 'app',
+  name: "app",
   components: {
-    CountryFlag
-  }
-}
+    CountryFlag,
+  },
+};
 </script>
 
 <style>
 #app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  font-family: "Avenir", Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
