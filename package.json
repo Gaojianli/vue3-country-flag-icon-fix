@@ -1,7 +1,7 @@
 {
-  "name": "vue3-country-flag-icon",
+  "name": "vue3-country-flag-icon-fix",
   "version": "0.2.0",
-  "description": "A vue 3 component to display country flag icons.",
+  "description": "A vue 3 component to display country flag icons, without node-saas.",
   "author": {
     "name": "Olivier Pichon",
     "email": "op@dzango.com",
